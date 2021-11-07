@@ -1,31 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="" />
+        </div>
+        <div class="introduction">
+          <div class="introduction__image-1">
+            <img
+              src="assets/desktop/image-hero-left.png"
+              class="introduction__image-1--desktop"
+              alt=""
+            />
+            <img
+              src="assets/tablet/image-hero.png"
+              class="introduction__image-1--tablet"
+              alt=""
+            />
+          </div>
+          <div class="introduction__text">
+            <h1>Group Chat for Everyone</h1>
+            <p class="introduction__paragraph">
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+            <div class="introduction__buttons">
+              <button type="button" class="btn btn--primary btn__download">
+                Download <span>v1.3</span>
+              </button>
+              <button type="button" class="btn btn--secondary">
+                What is it?
+              </button>
+            </div>
+          </div>
+          <div class="introduction__image-2">
+            <img src="assets/desktop/image-hero-right.png" alt="" />
+          </div>
+        </div>
+      </header>
 
-  Download v1.3
-  What is it?
+      <section class="features">
+        <div class="section__number-container">
+          <div class="section__line"></div>
+          <div class="section__badge">
+            <div class="section__number">01</div>
+          </div>
+        </div>
+        <div class="features__photos">
+          <div class="photo-set">
+            <div class="photo-set__a">
+              <img src="assets/desktop/image-woman-in-videocall.jpg" class="photo-set__image" alt="woman on video call">
+              <img src="assets/desktop/image-women-videochatting.jpg" class="photo-set__image" alt="women video chatting">
+            </div>
+            <div class="photo-set__b">
+              <img src="assets/desktop/image-men-in-meeting.jpg" class="photo-set__image" alt="men in online meeting">
+              <img src="assets/desktop/image-man-texting.jpg" class="photo-set__image" alt="man texting">
+            </div>
+          </div>
+        </div>
+        <div class="features__text-container">
+          <div class="features__text">
+            <div class="features__text--sub-head">Built for modern use</div>
+            <h2 class="features__text--heading">Smarter meetings, all in one place</h2>
+            <p class="features__text--paragraph">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+          </div>
+        </div>
+      </section>
 
-  01
-  Built for modern use
-
-  Smarter meetings, all in one place
-
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
-</body>
+      <footer>
+        <div class="section__number-container">
+          <div class="section__line"></div>
+          <div class="section__badge">
+            <div class="section__number">02</div>
+          </div>
+        </div>
+        <div class="footer-content__background">
+          <div class="footer-content__text">
+            <div>
+              <h2>Experience more together</h2>
+            </div>
+            <div>
+              <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+              </p>
+            </div>
+            <div>
+              <button type="button" class="btn btn--secondary">Download <span>v1.3</span></button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
