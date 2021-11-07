@@ -342,7 +342,7 @@ footer {
     }
     .footer-content__background {
       min-height: 428px;
-      background: url(images/tablet/image-footer.jpg) no-repeat center center/cover;
+      background: url(assets/tablet/image-footer.jpg) no-repeat center center/cover;
     }
     .footer-content__background::before {
       height: 428px;
